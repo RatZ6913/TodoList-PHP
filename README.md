@@ -14,3 +14,5 @@ Languages : PHP, Html, Css, MySql (No responsive, Stylisation (very light))
     <br> - Login / Register / Disconnect
     <br> - Initial online development (Learning to use NGINX)
    
+  <h2> Goal : </h2>
+    <p> The objective being to train, with all the instructions above, to be able to go further, before going to the next step </p>
