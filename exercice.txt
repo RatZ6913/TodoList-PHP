@@ -1,0 +1,19 @@
+Exercice : Création d'un système d'inscription et de connexion pour un site web en utilisant PHP.
+
+Instructions :
+
+   1. Créer une page d'inscription qui enregistre les informations de l'utilisateur telles que nom d'utilisateur, mot de passe, adresse e-mail.
+   2. Stocker les informations de l'utilisateur dans une BDD
+   4. Créer une page de connexion pour l'authentification de l'utilisateur, lorsque l'utilisateur se connecte, il aura un avatar par défaut.
+   5. Séparer le code en fichiers séparés. 
+    - l'inscription
+    - la connexion
+    - une page d'accueil où l'utilisateur est redirigé une fois connecté 
+    - une page de modification de profil où les utilisateurs connectés peuvent mettre à jour leur pseudo, email, mot de passe, avatar (png, jpg) et numéro de carte bleue (le numéro de carte bleu ne doit pas être stocké dans la BDD, mais temporairement dans un cookie).
+    - une page de déconnexion pour les utilisateurs connectés qui renvoi à la page de connexion
+    - un fichier pour la connexion à la base de donnée
+    - un fichier pour vos fonctions
+    6. Toutes vos fonctions doivent pouvoir lancer une exception dans le cas d'une erreur
+
+
+Remarque : On verra plus tard comment sécuriser le système en hashant les mots de passe et en vérifiant les données entrées pour éviter les attaques (par exemple, XSS, injection SQL). 

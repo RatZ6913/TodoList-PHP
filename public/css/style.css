@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.errorsMsg {
+  color: red;
+  background-color: white;
+  font-weight: 700;
+  width: 100%;
+  text-align: end;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15vh;
+  background-color: brown;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  margin: 1rem;
+}
+
+#navProfil {
+  width: 100px;
+  min-height: 80px;
+}
+
+h1 {
+  text-align: center;
+  color: #45161c;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(177, 135, 58);
+  color: white;
+  box-sizing: 1px 2px 1px 2px grey;
+}
+
+#register {
+  background-color: rgb(41, 76, 109) !important;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+input[type="submit"] {
+  margin: auto;
+  margin-bottom: 0.5rem;
+  color: brown;
+  background-color: white;
+  border: none;
+  padding: 0.2rem 0.5rem;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0px 0px 1px 1px white;
+  animation: submit 0.5s infinite ease-in-out;
+}
+
+@keyframes submit {
+  from {
+    box-shadow: 0px 0px 1px 1px white;
+  }
+  to {
+    box-shadow: 1px 1px 1px 1px white;
+  }
+}
+
+.box-profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  box-shadow: 1px 2px 3px grey;
+  background-color: wheat;
+}
+
+#img-profil {
+  margin: 1rem auto;
+  box-shadow: 1px 1px 2px grey;
+  width: 150px;
+}
+
+.box-editProfil {
+  width: 100%;
+  background-color: wheat;
+  margin: 1rem auto;
+}
+
+.pseudo {
+  color: #286e9c;
+}
+
+.email {
+  color: #125e12;
+}
+
+#profil-image {
+  display: flex;
+  align-items: center;
+  background-color: wheat;
+  color: #5e4321;
+}
+
+#profil-image input {
+  background-color: white;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+#disconnect {
+  margin-top: 0.5rem;
+}
+
+#box-todo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box-todo h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+#content-todo {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+h4 {
+  color: brown;
+}
+
+/* PARTIE TÂCHES  */
+#tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: gainsboro;
+  width: 60%;
+  align-items: center;
+}
+
+.form-task {
+  display: flex;
+  flex-direction: row;
+  background-color: #286e9c80;
+  width: 100%;
+}
+
+.form-task input {
+  align-items: center;
+  color: #206420;
+  margin: 0.5rem;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+
+.btn-task {
+  display: flex;
+}
+
+#task-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  background-color: wheat;
+  margin: 0.5rem auto;
+}
+
+.taskAdded {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5rem auto;
+  width: 60%;
+  background-color: gainsboro;
+}
+
+.taskAdded input {
+  background-color: rgb(155, 109, 25);
+  color: white;
+  margin: 0.2rem;
+}
+
+.taskAdded input:nth-child(2) {
+  color: white;
+  background-color: #8d1a1a;
+}
+
+.text-tasks {
+  color: #0e3774 !important;
+  background-color: whitesmoke !important;
+  width: 25vw !important;
+}
+
+.count {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  margin-left: -15px;
+}
+
